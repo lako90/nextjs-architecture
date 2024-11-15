@@ -15,7 +15,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get asd started by editing <code>src/app/page.tsx</code>.
+            Get asdasd started by editing <code>src/app/page.tsx</code>.
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
