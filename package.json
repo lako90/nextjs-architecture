@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --write .",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky"
   },
   "engines": {
     "node": ">=18.18.0",
@@ -15,7 +16,6 @@
     "pnpm": "please-use-npm"
   },
   "dependencies": {
-    "husky": "^9.1.6",
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106"
@@ -26,7 +26,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
-    "lint-staged": "^15.2.10",
+    "husky": "^9.1.6",
     "prettier": "^3.3.3",
     "typescript": "^5"
   }
